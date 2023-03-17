@@ -176,6 +176,9 @@ footer img{
 }
 
 @media screen and (max-width:640px) {
+    body{
+        overflow-x: none;
+    }
     #sobre-motors img{
         width: 90%;
         margin: 0;
@@ -220,11 +223,13 @@ footer img{
         width: 100%;
         display: grid;
         grid-template-columns: 70%;
+        margin-left: 50px ;
         
 
     }
     .lista-veiculos li{
         width: 1000px;
+        margin-top: 30px;
     }
     .lista-veiculos button{
         width: 100%;
